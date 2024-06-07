@@ -36,7 +36,7 @@ pre {
 .mediumnavigation {
 	background: #fff;
         transition: top 0.5s ease-in-out;
-        padding: 1.5rem 1rem;
+        padding: 1rem 1rem;
         box-shadow: 0px 10px 40px 0px rgba( 0, 0, 0, 0.05 );
 }
 .nav-up {box-shadow:none;}
@@ -210,8 +210,8 @@ section.recent-posts {
 	width:85%;
 }
 .listrecent .wrapfooter {
-	font-size:12px;
-	margin-top:30px;
+	font-size: 12px;
+	margin-top: 20px;
 }
 .author-thumb {
 	width:40px;
@@ -256,15 +256,15 @@ span.post-date,span.post-read {
 
 span.post-read-more a {
 	color:rgba(0,0,0,.44);
-     align-items: center;
+    align-items: center;
     display: inline-block;
     float: right;
-     width: 30px;
+    width: 100px;
     height: 30px;
     line-height: 30px;
     text-align: center;
     border: 1px solid #d0d0d0;
-    border-radius: 50%;
+    border-radius: 4px;
 }
 span.post-name a,span.post-read-more a:hover {
 	color:rgba(0,0,0,.8);
@@ -416,7 +416,7 @@ span.post-name a,span.post-read-more a:hover {
 .article-post a {color:inherit; box-shadow:inset 0 -2px 0 rgba(255, 229, 31,1), 0 2px 0 rgba(255, 229, 31,1);}
 .article-post a:hover {box-shadow:inset 0 -30px 0 rgba(255, 229, 31,1), 0 2px 0 rgba(255, 229, 31,1);text-decoration:none;}
 blockquote {
-	border-left:4px solid #6FD350;
+	border-left:4px solid #c02163;
 	padding:0 20px;
 	font-style:italic;
 	color:rgba(0,0,0,.5);

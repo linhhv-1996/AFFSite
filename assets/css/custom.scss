@@ -72,7 +72,6 @@
 
 #toc a {
 	color: #BE185D;
-	text-decoration: underline;
 }
 
 #toc a:hover {
@@ -113,6 +112,16 @@
 
 .bottompagination span.navigation a {
 	padding: 8px 5px;
+}
+
+.home_tag ul.tags {
+	margin-bottom: 5px;
+}
+
+@media screen and (min-width:768px) {
+	.post_no_pl {
+		padding-left: 0;
+	}
 }
 
 
