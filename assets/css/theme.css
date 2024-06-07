@@ -703,7 +703,11 @@ a.btn {color:#fff;}
     margin-top: 3rem;
     margin-bottom: 1.5rem;
 }
-.sidebar {max-width:340px;font-size: 15px;}
+.sidebar {
+    max-width: none;
+    font-size: 15px;
+}
+
 .sidebar h5 {    margin-bottom: 1rem;   text-align:center; position:relative;font-weight: 700; }
 .sidebar h5 span {
 background-color: #fff;
