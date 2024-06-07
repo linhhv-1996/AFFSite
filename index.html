@@ -56,6 +56,12 @@ pagination:
             <h2><span>All Stories</span></h2>    
         </div>
 
+        <div class="search">
+            <input class="form-control" type="text" name="search" placeholder="Search">
+            <i class="fa fa-search"></i>
+        </div>
+        
+
         <div class="masonrygrid row listrecent all_posts">
 
             {% for post in paginator.posts %}

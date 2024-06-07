@@ -13,7 +13,7 @@
 }
 
 .img_post {
-	padding-right: 0;
+	// padding-right: 0;
 }
 
 .img_post img {
@@ -91,4 +91,28 @@
 #breadcrumbs a {
 	color: #c02164;
 }
+
+.search {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.search input {
+	border-radius: 4px;
+}
+
+.search i {
+	position: absolute;
+  	right: 5px;
+  	top: 10px;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.bottompagination span.navigation a {
+	padding: 8px 5px;
+}
+
 
