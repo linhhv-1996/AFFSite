@@ -94,6 +94,9 @@
 .search {
 	position: relative;
 	margin-bottom: 30px;
+	border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    border-top: 0;
 }
 
 .search input {
@@ -102,8 +105,23 @@
 
 .search i {
 	position: absolute;
-  	right: 5px;
-  	top: 10px;
+    right: 8px;
+    top: 8px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+    cursor: pointer;
+    font-style: normal;
+}
+
+.search svg {
+	position: absolute;
+    right: 9px;
+    top: 9px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    color: #5b5b5b;
 }
 
 .navbar-toggler {
@@ -151,5 +169,46 @@
 	display: block;
     overflow: hidden;
     height: 100%;
+}
+
+.wrapintro {
+	background: transparent;
+}
+
+.wrapintro h1, .wrapintro h2 {
+	color: white;
+}
+
+.navbar-toggleable-md .navbar-nav .nav-link {
+	text-transform: none;
+	font-weight: bold;
+}
+
+#results-container {
+	list-style: none;
+	border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+	margin-bottom: 0;
+	padding-left: 15px;
+}
+
+#results-container li {
+	padding-top: 3px;
+    padding-bottom: 3px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}
+
+#results-container li:last-child {
+	padding-bottom: 10px;
+}
+
+#results-container li:first-child {
+	padding-top: 10px;
+}
+
+#results-container li a {
+	color: black;
 }
 
