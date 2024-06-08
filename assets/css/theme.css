@@ -236,26 +236,30 @@ section.recent-posts {
 	color:rgba(0,0,0,.44);
 	display:inline-block;
 }
+
 .post-top-meta .author-description {
 	margin-bottom:5px;
 	margin-top:10px;
 	font-size:0.95rem;
 }
+
 .author-meta {
 	flex:1 1 auto;
 	white-space:nowrap!important;
 	text-overflow:ellipsis!important;
 	overflow:hidden!important;
 }
+
 span.post-name,span.post-date,span.author-meta {
 	display:inline-block;
 }
+
 span.post-date,span.post-read {
 	color:rgba(0,0,0,.44);
 }
 
 span.post-read-more a {
-	color:rgba(0,0,0,.44);
+	color:#414141;
     align-items: center;
     display: inline-block;
     float: right;

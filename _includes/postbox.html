@@ -5,7 +5,7 @@
 <div class="card">
     <div class="row">
         <div class="col-md-5 img_post">
-            <a href="{{ post.url | absolute_url }}">
+            <a href="{{ post.url | absolute_url }}" class="thumb_image">
                 {% if post.image %} <img class="img-fluid" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> {% endif %}
             </a>
         </div>
