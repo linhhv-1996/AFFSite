@@ -322,6 +322,7 @@ span.post-name a,span.post-read-more a:hover {
 	margin-right:7px;
     vertical-align: text-bottom;
     max-width:initial;
+    height: 19px;
 }
 .mainheading h1.sitetitle {
 	font-family:Georgia;
@@ -331,7 +332,7 @@ span.post-name a,span.post-read-more a:hover {
 	margin-bottom:1rem;
 }
 .intro {
-    background-image:url(https://images.unsplash.com/photo-1665686310429-ee43624978fa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image:url(/assets/images/banner.png);
     background-size:cover;
     padding: 9rem 0;
     margin-top:-87px;
@@ -538,11 +539,11 @@ ul.tags li {
 	font-size:0.9rem;
 }
 ul.tags li a {
-    background: #fff100;
+    background: #efefef;
     color: #333;
     padding: 3px 10px;
     border-radius: 3px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 0.93em;
     text-transform: capitalize;    
     box-shadow: 0 6px 10px 0 rgba(169, 169, 169, 0.1);
